@@ -1,5 +1,5 @@
 <script>
-  import Navbar from './Navbar.vue'
+  import Navbar from './common/Navbar.vue'
 
   export default {
     name: "app",

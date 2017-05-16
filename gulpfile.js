@@ -17,7 +17,8 @@ gulp.task('webpack', function(){
 gulp.task('webserver', function() {
   connect.server({
     livereload: true,
-    root: 'dist'
+    root: 'dist',
+    port:3000
   });
 });
 
