@@ -9,10 +9,10 @@
     <div class="top-bar">
       <div class="top-bar-left">
         <ul class="dropdown menu" data-dropdown-menu>
-          <li class="menu-text">Vue Webgulp</li>
-          <li><router-link to="home">Home</router-link></li>
+          <li class="menu-text">Teem Web</li>
+          <li><router-link to="dashboard">Dashboard</router-link></li>
           <li><router-link to="about">About</router-link></li>
-          <li><router-link to="quote">Quote</router-link></li>
+          <!--<li><router-link to="quote">Quote</router-link></li>-->
         </ul>
       </div>
       <div class="top-bar-right">

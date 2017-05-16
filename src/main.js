@@ -5,9 +5,10 @@ import Resource from 'vue-resource'
 import Router from 'vue-router'
 
 import App from './components/App.vue'
-import Home from './components/Home.vue'
-import About from './components/About.vue'
+import Dashboard from './components/dashboard/Dashboard.vue'
+import About from './components/common/About.vue'
 import Quote from './components/Quote.vue'
+
 
 // Install plugins
 Vue.use(Router)
@@ -16,9 +17,9 @@ Vue.use(Resource)
 // route config
 let routes = [
   {
-    path: '/home',
-    name: 'home',
-    component: Home
+    path: '/dashboard',
+    name: 'dashboard',
+    component: Dashboard
   },
   {
     path: '/about',
@@ -30,7 +31,7 @@ let routes = [
     name: 'quote',
     component: Quote
   },
-  { path: '*', redirect: '/home' }
+  { path: '*', redirect: '/dashboard' }
 ]
 
 // Set up a new router
