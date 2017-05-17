@@ -54,9 +54,11 @@
     "webpack-stream": "^2.3.0"
   },
   "dependencies": {
+    "firebase": "^3.9.0",
     "foundation-sites": "^6.0.6",
     "vue": "^2.1.10",
     "vue-resource": "^1.0.3",
-    "vue-router": "^2.1.1"
+    "vue-router": "^2.1.1",
+    "vuefire": "^1.4.2"
   }
 }
