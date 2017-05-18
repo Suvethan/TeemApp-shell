@@ -28,5 +28,11 @@ gulp.task('build.index', function(){
     .pipe(gulp.dest('./dist'));
 });
 
+// gulp.task('styles', function(){
+//   return gulp.src('node_modules/firebase/*.css')
+//     .pipe(gulp.dest('dist/css/'))
+//     .pipe(connect.reload());
+// });
+
 // Default task
 gulp.task('default', ['webpack', 'webserver', 'build.index']);

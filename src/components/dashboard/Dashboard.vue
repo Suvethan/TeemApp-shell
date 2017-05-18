@@ -28,13 +28,10 @@
 <script>
 import DatabaseHandler from '../data/DatabaseHandler.vue'
 
-let membersRef = DatabaseHandler.db.ref('books')
+//let membersRef = DatabaseHandler.db.ref('books')
 
   export default {
-  components: { DatabaseHandler },
-  firebase: {
-      books: membersRef
-    }
+  components: { DatabaseHandler }
 
   }
 </script>

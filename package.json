@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "firebase": "^3.9.0",
+    "firebaseui": "^1.0.1",
     "foundation-sites": "^6.0.6",
     "vue": "^2.1.10",
     "vue-resource": "^1.0.3",
