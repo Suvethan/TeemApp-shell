@@ -80,7 +80,7 @@
 		},
 		data: function() {
 			return {
-				projectIcon: this.setProjectIcon()
+				projectIcon:'P'
 			}
 		},
         methods:{
