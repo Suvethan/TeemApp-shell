@@ -65,7 +65,7 @@ new Vue({
 		console.log(db);
 		db.teemApp.auth().onAuthStateChanged((user) => {
 			if(user) {
-				this.$router.push('/success')
+				this.$router.push('/dashboard')
 			} else {
 				this.$router.push('/auth')
 			}
